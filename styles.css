@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px auto;
+  background-image: linear-gradient(to bottom, #288be0, #cae4fa);
+}
+
+.header__logo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px auto;
+}
+
+.logo {
+  max-height: 200px;
+}
+
+.header__menu {
+  width: 100%;
+}
+
+ul {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px auto;
+}
