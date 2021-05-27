@@ -31,9 +31,33 @@
       <h1>Bem Vindo ao Tutanopolis</h1>
     </div>
     <div class="main__reservation">
-      <div class="reservation__date"></div>
-      <div class="reservation__specification"></div>
-      <button>Reservar</button>
+      <div class="reservation__date">
+        <div class="reservation__checkin">
+          <p>Check-In</p>
+          <p>Data</p>
+          <input type="date" class="reservation__input--data"></input>
+        </div>
+        <div class="reservation__checkout">
+          <p>Check-Out</p>
+          <p>Data</p>
+          <input type="date" class="reservation__input--data"></input>
+        </div>
+      </div>
+      <div class="reservation__specification">
+        <div class="specification__rooms">
+          <p>Quartos</p>
+          <input type="number" class="specification__number"></input>
+        </div>
+        <div class="specification__adults">
+          <p>Adultos</p>
+          <input type="number" class="specification__number"></input>
+        </div>
+        <div class="specification__kids">
+          <p>Crianças</p>
+          <input type="number" class="specification__number"></input>
+        </div>
+      </div>
+      <button class="main__cta">Reservar</button>
     </div>
   </section>
   <footer>

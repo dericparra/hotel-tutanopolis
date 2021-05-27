@@ -32,3 +32,123 @@ ul {
   justify-content: space-around;
   padding: 5px auto;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+  background-image: url(./assets/Hotel-tutanopolis-foto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+.main__title {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.main__title h1 {
+  font-size: 40px;
+  color: white;
+  justify-self: flex-start;
+}
+
+.main__reservation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  flex: 4;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-bottom: 20px;
+}
+
+.reservation__date {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.reservation__date div p {
+  font-size: 18px;
+}
+
+.reservation__checkin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.reservation__checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.reservation__input--data {
+  width: 100%;
+  height: 10vh;
+}
+
+.reservation__specification {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 60px !important;
+}
+
+.specification__rooms {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.specification__adults {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.specification__kids {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.main__cta {
+  align-self: center;
+  justify-self: center;
+  width: 30%;
+}
+
+.specification__number {
+  width: 50%;
+  height: 5vh;
+}
